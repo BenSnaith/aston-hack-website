@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "SyneMono";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('/src/app/assets/fonts/SyneMono/SyneMono-Regular.ttf');
+}
