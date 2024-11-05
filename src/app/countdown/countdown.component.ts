@@ -14,11 +14,11 @@ export class CountdownComponent implements AfterViewInit {
   targetTime: any = this.targetDate.getTime();
   difference: number;
 
-  @ViewChild('days', { static: true}) days: ElementRef;
-  @ViewChild('hours', { static: true}) hours: ElementRef;
-  @ViewChild('minutes', { static: true}) minutes: ElementRef;
-  @ViewChild('seconds', { static: true}) seconds: ElementRef;
-  @ViewChild('countdown-container', {static: true}) countdownContainer: HTMLDivElement;
+  @ViewChild('days', { static: true }) days: ElementRef;
+  @ViewChild('hours', { static: true }) hours: ElementRef;
+  @ViewChild('minutes', { static: true }) minutes: ElementRef;
+  @ViewChild('seconds', { static: true }) seconds: ElementRef;
+  @ViewChild('countdown-container', { static: true }) countdownContainer: HTMLDivElement;
 
   ngAfterViewInit() {
     setInterval(() => {
