@@ -1,10 +1,13 @@
 import { Component, ViewChild, ElementRef, OnInit } from '@angular/core';
 import { WindowRefService } from '../window-ref.service';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [],
+  imports: [
+    NgOptimizedImage
+  ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })

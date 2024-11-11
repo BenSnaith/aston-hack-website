@@ -10,3 +10,9 @@
   font-display: swap;
   src: url('/src/app/assets/fonts/SyneMono/SyneMono-Regular.ttf');
 }
+
+@layer components {
+  .gallery_image {
+    @apply w-16 h-16 m-2;
+  }
+}
