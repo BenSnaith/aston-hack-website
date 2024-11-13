@@ -6,4 +6,8 @@
   .gallery-image {
     @apply w-full h-72;
   }
+
+  .gallery-button {
+    @apply w-20 h-10 bg-purple-700 rounded-full;
+  }
 }
