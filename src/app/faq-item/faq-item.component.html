@@ -1,1 +1,9 @@
-<p>faq-item works!</p>
+<div class="text-white py-5 px-1 h-fit min-w-30 overflow-hidden border-b-2 border-zinc-700 transition-all duration-700">
+  <div class="flex flex-row justify-between cursor-pointer" (click)="expandContent()">
+    <p>{{ heading }}</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+  </div>
+  <div #content class="content-hidden transition-all duration-700">
+    <ng-content select="[content]"></ng-content>
+  </div>
+</div>

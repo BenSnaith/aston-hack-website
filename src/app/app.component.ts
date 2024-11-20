@@ -5,12 +5,13 @@ import { CountdownComponent } from './countdown/countdown.component';
 import { WindowRefService } from './window-ref.service';
 import { GalleryComponent } from './gallery/gallery.component';
 import {FooterComponent} from './footer/footer.component';
+import {FaqItemComponent} from './faq-item/faq-item.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   providers: [WindowRefService],
-  imports: [RouterOutlet, NavbarComponent, CountdownComponent, GalleryComponent, FooterComponent],
+  imports: [RouterOutlet, NavbarComponent, CountdownComponent, GalleryComponent, FooterComponent, FaqItemComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

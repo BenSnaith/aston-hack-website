@@ -1,0 +1,18 @@
+.content-hidden {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all;
+  transition-duration: 500ms;
+  padding: 0;
+}
+
+.content-show {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  transition: all;
+  transition-duration: 500ms;
+  padding-top: 1rem;
+}
