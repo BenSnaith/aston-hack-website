@@ -1,11 +1,11 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from "./navbar/navbar.component";
-import { CountdownComponent } from './countdown/countdown.component';
+import { NavbarComponent } from "./components/navbar/navbar.component";
+import { CountdownComponent } from './components/countdown/countdown.component';
 import { WindowRefService } from './window-ref.service';
-import { GalleryComponent } from './gallery/gallery.component';
-import {FooterComponent} from './footer/footer.component';
-import {FaqItemComponent} from './faq-item/faq-item.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import {FooterComponent} from './components/footer/footer.component';
+import {FaqItemComponent} from './components/faq-item/faq-item.component';
 
 @Component({
   selector: 'app-root',
