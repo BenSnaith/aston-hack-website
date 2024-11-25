@@ -12,13 +12,13 @@ import {NgOptimizedImage} from '@angular/common';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent implements OnInit {
+  window: Window;
+
   constructor(windowRef: WindowRefService) {
     this.window = windowRef.nativeWindow;
   }
 
   @ViewChild('navbarDiv') navbarDiv: ElementRef;
-
-  window: Window;
 
   ngOnInit(): void {
     this.window.addEventListener("scroll", this.transNav, true);

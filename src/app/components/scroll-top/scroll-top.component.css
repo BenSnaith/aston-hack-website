@@ -1,0 +1,7 @@
+.scroll-hidden {
+  visibility: hidden;
+}
+
+.scroll-show {
+  visibility: visible;
+}
