@@ -6,12 +6,14 @@ import { WindowRefService } from './services/window-ref.service';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {FaqItemComponent} from './components/faq-item/faq-item.component';
+import {HeaderComponent} from './components/header/header.component';
+import {ScheduleComponent} from './components/schedule/schedule.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   providers: [WindowRefService],
-  imports: [RouterOutlet, NavbarComponent, CountdownComponent, GalleryComponent, FooterComponent, FaqItemComponent],
+  imports: [RouterOutlet, NavbarComponent, CountdownComponent, GalleryComponent, FooterComponent, FaqItemComponent, HeaderComponent, ScheduleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

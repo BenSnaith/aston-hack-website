@@ -1,6 +1,6 @@
 export interface ScheduleEvent {
-  day: string;
-  time: string;
+  starttime: string;
   title: string;
-  description: string;
+  description?: string;
+  isDayOne: boolean;
 }
