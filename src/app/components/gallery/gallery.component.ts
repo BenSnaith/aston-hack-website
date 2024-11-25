@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import {ImageCardComponent} from '../image-card/image-card.component';
+import {HeaderComponent} from '../header/header.component';
 
 @Component({
   selector: 'app-gallery',
   standalone: true,
-  imports: [ImageCardComponent],
+  imports: [ImageCardComponent, HeaderComponent],
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.css'
 })

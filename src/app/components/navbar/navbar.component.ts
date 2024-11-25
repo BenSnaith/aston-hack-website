@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef, OnInit } from '@angular/core';
-import { WindowRefService } from '../../window-ref.service';
+import { WindowRefService } from '../../services/window-ref.service';
 import {NgOptimizedImage} from '@angular/common';
 
 @Component({
