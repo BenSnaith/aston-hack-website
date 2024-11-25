@@ -1,10 +1,10 @@
 <div class="w-full h-fit flex flex-col  justify-center items-center bg-zinc-800 text-white">
   <app-header text="Schedule"></app-header>
 
-  <div class="w-full h-4/5 h-fit my-10 flex flex-col items-center">
-    <h1 class="text-2xl py-5 underline">Day 1</h1>
+  <div class="w-full h-4/5 h-fit flex flex-col items-center">
+    <h1 class="text-xl py-5 border-b-2 border-zinc-700">February 22nd 2025</h1>
     <app-schedule-item *ngFor="let e of dayOneEvents" [event]="e"></app-schedule-item>
-    <h1 class="text-2xl my-3 underline">Day 2</h1>
+    <h1 class="text-xl py-5 border-b-2 border-zinc-700">February 23rd 2025</h1>
     <app-schedule-item *ngFor="let e of dayTwoEvents" [event]="e"></app-schedule-item>
   </div>
 </div>

@@ -75,4 +75,47 @@ export const EVENTS: ScheduleEvent[] = [
     description: "Games Room Open",
     isDayOne: true,
   },
+  {
+    starttime: "12:00am",
+    title: "Midnight Movies",
+    isDayOne: false,
+  },
+  {
+    starttime: "8:00am",
+    title: "Breakfast",
+    description: "Aston Dining Room",
+    isDayOne: false,
+  },
+  {
+    starttime: "9:00am",
+    title: "Devpost Submissions Begin",
+    isDayOne: false,
+  },
+  {
+    starttime: "10:00am",
+    title: "Event 9: WIT Panel",
+    description: "Run by ACSS, Open to all students",
+    isDayOne: false,
+  },
+  {
+    starttime: "11:00am",
+    title: "Hacking Ends!",
+    isDayOne: false,
+  },
+  {
+    starttime: "11:00am",
+    title: "Lunch",
+    isDayOne: false,
+  },
+  {
+    starttime: "12:00pm",
+    title: "Demos Begin",
+    isDayOne: false,
+  },
+  {
+    starttime: "3:00pm",
+    title: "Closing Ceremony",
+    description: "Thank you for coming to AstonHack, we hope you had fun :)",
+    isDayOne: false,
+  },
 ]
