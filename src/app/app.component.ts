@@ -9,12 +9,13 @@ import {FaqItemComponent} from './components/faq-item/faq-item.component';
 import {HeaderComponent} from './components/header/header.component';
 import {ScheduleComponent} from './components/schedule/schedule.component';
 import {ScrollTopComponent} from './components/scroll-top/scroll-top.component';
+import {SponsorsComponent} from './components/sponsors/sponsors.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   providers: [WindowRefService],
-  imports: [RouterOutlet, NavbarComponent, CountdownComponent, GalleryComponent, FooterComponent, FaqItemComponent, HeaderComponent, ScheduleComponent, ScrollTopComponent],
+  imports: [RouterOutlet, NavbarComponent, CountdownComponent, GalleryComponent, FooterComponent, FaqItemComponent, HeaderComponent, ScheduleComponent, ScrollTopComponent, SponsorsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
