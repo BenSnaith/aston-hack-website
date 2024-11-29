@@ -31,19 +31,3 @@
   font-weight: 300;
   font-style: normal;
 }
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #BDBDBD;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #6E6E6E;
-}

@@ -9,13 +9,13 @@
     </div>
 </div>
 
-<div class="flex flex-col items-center justify-center bg-zinc-900 py-20 min-w-full min-h-[55vh] text-white" id="about">
+<div class="flex flex-col items-center justify-center bg-zinc-900 px-5 py-20 min-w-full min-h-[55vh] text-white" id="about">
     <div class="text-center flex flex-col items-center justify-center">
         <div class="lg:max-w-[50vw]">
             <h2 class="text-5xl syne-mono-regular">ABOUT THE EVENT</h2>
 
-            <p class="my-5">We’re excited to announce the official launch for AstonHack 9.</p>
-            <p class="my-5">Our Hackathon will run from the 18th to 19th of February and will be an enjoyable, creative and inspiring experience for hackers and organizers alike</p>
+            <p class="my-5">We’re excited to announce the official launch for AstonHack 10.</p>
+            <p class="my-5">Our Hackathon will run from the 22nd to 23rd of February and will be an enjoyable, creative and inspiring experience for hackers and organizers alike</p>
             <p class="my-5">Hackathons are invention marathons where attendees dream up and bring to life ideas for apps, websites,
             robots, and more.We are inviting  students to join us for 24 hours while we develop the ideas for the future!</p>
             <p class="my-5">Whether you’re just getting started or you’ve been programming for years, hackathons are a great place to learn new skills,
@@ -23,13 +23,13 @@
             <hr class="my-10">
         </div>
     </div>
-    <div class="flex flex-row space-x-32">
+    <div class="flex flex-col md:flex-row items-center justify-center md:space-x-32">
       <div class="flex flex-col items-center justify-center py-5 text-xl w-fit">
-          <h2>WHERE</h2>
+          <h2 class="font-bold">WHERE</h2>
           <p>Aston University</p>
       </div>
       <div class="flex flex-col items-center justify-center py-5 text-xl w-fit">
-          <h2>WHEN</h2>
+          <h2 class="font-bold">WHEN</h2>
           <p>February 22nd 2025</p>
       </div>
     </div>
@@ -47,7 +47,7 @@
   <app-header text="FAQs"></app-header>
 
   <div class="flex flex-col w-full space-y-20 py-10 justify-center items-center">
-    <div id="faq-list" class="w-1/2 md:2/3">
+    <div id="faq-list" class="md:w-2/3">
       <app-faq-item heading="Who Can Participate?">
         <div content>All ACSS Members, Students of other universities, and graduated up to 2 years.</div>
       </app-faq-item>
@@ -93,29 +93,38 @@
       </app-faq-item>
     </div>
 
-    <div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.5814415697314!2d-1.8908227226309473!3d52.48671377205256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc9ae4f2e4b3%3A0x9a670ba18e08a084!2sAston%20University!5e0!3m2!1sen!2suk!4v1732045162344!5m2!1sen!2suk" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-tl-lg rounded-tr-lg"></iframe>
+    <!-- Google Map Embeds -->
+    <div class="hidden md:block">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.5814415697314!2d-1.8908227226309473!3d52.48671377205256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc9ae4f2e4b3%3A0x9a670ba18e08a084!2sAston%20University!5e0!3m2!1sen!2suk!4v1732045162344!5m2!1sen!2suk" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="block rounded-tl-lg rounded-tr-lg"></iframe>
       <div>
         <p class="bg-zinc-700 text-white text-center w-full p-5 rounded-br-lg rounded-bl-lg">Aston University, Aston Street, Birmingham, B4 7ET</p>
       </div>
     </div>
+    <!--
+    <div class="block md:hidden">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.5812611345605!2d-1.890822723110623!3d52.48671703869302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc9ae4f2e4b3%3A0x9a670ba18e08a084!2sAston%20University!5e0!3m2!1sen!2suk!4v1732886280770!5m2!1sen!2suk" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="block rounded-tl-lg rounded-tr-lg"></iframe>
+      <div>
+        <p class="bg-zinc-700 text-white text-center p-5 rounded-br-lg rounded-bl-lg">Aston University, Aston Street, Birmingham, B4 7ET</p>
+      </div>
+    </div>
+    -->
   </div>
 </div>
 <!-- Get in touch -->
-<div id="get-in-touch" class="h-fit p-20 flex flex-col items-center bg-zinc-800">
+<div id="get-in-touch" class="h-fit px-5 md:px-20 py-20 flex flex-col items-center bg-zinc-800">
   <app-header text="Contact"></app-header>
-  <form class="flex flex-col h-fit pt-7">
-    <div class="flex flex-row space-x-5 py-3">
-      <input type="text" placeholder="Name" class="form-input h-10 w-1/2 p-5 bg-zinc-400 placeholder:text-zinc-700 font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 focus:rounded-sm" />
-      <input type="text" placeholder="Email" class="form-input h-10 w-1/2 p-5 placeholder:text-zinc-700 font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 focus:rounded-sm" />
+  <form class="flex flex-col h-fit w-full lg:w-1/3 pt-7">
+    <div class="flex flex-col md:flex-row space-y-5 md:space-x-5 md:space-y-0 my-3 md:py-3">
+      <input type="text" placeholder="Name" class="form-input h-10 w-full md:w-1/2 p-5 bg-zinc-400 text-black placeholder:text-zinc-700 font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 focus:rounded-sm" />
+      <input type="text" placeholder="Email" class="form-input h-10 w-full md:w-1/2 p-5 bg-zinc-400 text-black placeholder:text-zinc-700 font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 focus:rounded-sm" />
     </div>
     <div class="flex flex-row py-3">
-      <input type="text" placeholder="Subject" class="form-input h-10 p-5 w-full placeholder:text-zinc-700 font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 focus:rounded-sm">
+      <input type="text" placeholder="Subject" class="form-input h-10 w-full p-5 bg-zinc-400 text-black placeholder:text-zinc-700 font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 focus:rounded-sm">
     </div>
     <div class="flex flex-row py-3">
-      <textarea placeholder="Message..." class="form-input h-52 p-5 w-full max-h-96 placeholder:text-zinc-700 font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 focus:rounded-sm"></textarea>
+      <textarea placeholder="Message..." class="form-input h-52 p-5 w-full max-h-96  bg-zinc-400 text-black placeholder:text-zinc-700 font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 focus:rounded-sm"></textarea>
     </div>
-    <button type="submit" class="w-1/3 py-2 mt-3 bg-purple-700 rounded-lg">
+    <button type="submit" class="w-full md:w-1/3 py-2 mt-3 bg-purple-700 rounded-lg">
       Send Message
     </button>
   </form>
