@@ -14,7 +14,7 @@
   }
 
   .site-section {
-    @apply w-full h-fit py-10;
+    @apply w-full h-fit py-12;
   }
 }
 
