@@ -1,15 +1,15 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { CountdownComponent } from './components/countdown/countdown.component';
 import { WindowRefService } from './services/window-ref.service';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import {FooterComponent} from './components/footer/footer.component';
-import {HeaderComponent} from './components/header/header.component';
 import {ScheduleComponent} from './components/schedule/schedule.component';
 import {ScrollTopComponent} from './components/scroll-top/scroll-top.component';
 import {SponsorsComponent} from './components/sponsors/sponsors.component';
 import {FaqComponent} from './components/faq/faq.component';
+import {ContactComponent} from './components/contact/contact.component';
 
 @Component({
   selector: 'app-root',
@@ -21,11 +21,11 @@ import {FaqComponent} from './components/faq/faq.component';
     CountdownComponent,
     GalleryComponent,
     FooterComponent,
-    HeaderComponent,
     ScheduleComponent,
     ScrollTopComponent,
     SponsorsComponent,
-    FaqComponent
+    FaqComponent,
+    ContactComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
