@@ -9,6 +9,10 @@
     @apply ml-5 hover:underline;
   }
 
+  .scroll-to-hr {
+    @apply h-0 w-0 scale-0 outline-none border-none invisible;
+  }
+
   .info-square {
     @apply w-fit py-5 flex flex-col items-center justify-center text-xl;
   }
