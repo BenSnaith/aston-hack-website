@@ -8,14 +8,14 @@ A hackathon is an event where teams of up to 4 people work together in order to 
 This website has been created for the 10th annual hackathon.
 
 
-### Tech Stack
+## Tech Stack
 
 **Client:** Angular, TailwindCSS
 
 **Server:** Firebase
 
 
-### Documentation
+## Documentation
 
 [Angular](https://angular.dev/)
 
@@ -24,7 +24,7 @@ This website has been created for the 10th annual hackathon.
 
 
 
-### Run Locally
+## Run Locally
 #### Prerequisites
 
 - [Angular CLI](https://angular.dev/tools/cli)
@@ -55,6 +55,6 @@ Start the server
 ```
 
 
-### Support
+## Support
 
 For support, email bsnaith@proton.me.
