@@ -1,3 +1,4 @@
+/* Tailwind doesn't work nicely with background-image, so it is here */
 #hero {
     background-image: url("/subscribe-bg.jpg");
     background-size: cover;

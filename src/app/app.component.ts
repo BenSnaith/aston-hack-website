@@ -5,17 +5,28 @@ import { CountdownComponent } from './components/countdown/countdown.component';
 import { WindowRefService } from './services/window-ref.service';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import {FooterComponent} from './components/footer/footer.component';
-import {FaqItemComponent} from './components/faq-item/faq-item.component';
 import {HeaderComponent} from './components/header/header.component';
 import {ScheduleComponent} from './components/schedule/schedule.component';
 import {ScrollTopComponent} from './components/scroll-top/scroll-top.component';
 import {SponsorsComponent} from './components/sponsors/sponsors.component';
+import {FaqComponent} from './components/faq/faq.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   providers: [WindowRefService],
-  imports: [RouterOutlet, NavbarComponent, CountdownComponent, GalleryComponent, FooterComponent, FaqItemComponent, HeaderComponent, ScheduleComponent, ScrollTopComponent, SponsorsComponent],
+  imports: [
+    RouterOutlet,
+    NavbarComponent,
+    CountdownComponent,
+    GalleryComponent,
+    FooterComponent,
+    HeaderComponent,
+    ScheduleComponent,
+    ScrollTopComponent,
+    SponsorsComponent,
+    FaqComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

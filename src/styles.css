@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tailwind classes */
 @layer components {
   .gallery_image {
     @apply w-16 h-16 m-2;
@@ -11,12 +12,20 @@
   .faq_list_item {
     @apply w-16 h-16 m-2;
   }
+
+  .site-section {
+    @apply w-full h-fit py-10;
+  }
 }
 
 * {
   scroll-behavior: smooth;
   font-family: "JetBrains Mono", monospace;
   color: white;
+}
+
+section {
+  background-color: #27272a;
 }
 
 .syne-mono-regular {
