@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/aston-hack-website/browser",
+    "public": "/dist/aston-hack-website/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
