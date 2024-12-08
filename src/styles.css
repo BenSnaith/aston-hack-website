@@ -44,12 +44,6 @@
   color: white;
 }
 
-.syne-mono-regular {
-  font-family: "Syne Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .jetbrains-mono-regular {
   font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
