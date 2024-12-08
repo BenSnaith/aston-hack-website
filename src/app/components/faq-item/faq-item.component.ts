@@ -14,7 +14,7 @@ export class FaqItemComponent {
 
   toggle: boolean = false;
 
-  expandContent = () => {
+  expandContent: () => void = (): void => {
     if(!this.toggle) {
       this.content.nativeElement.classList.remove("content-hidden");
       this.content.nativeElement.classList.add("content-show");

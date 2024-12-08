@@ -1,6 +1,6 @@
 .content-hidden {
   opacity: 0;
-  height: 0;
+  max-height: 0;
   overflow: hidden;
   transition: all;
   transition-duration: 700ms;
@@ -10,8 +10,8 @@
 
 .content-show {
   opacity: 1;
-  height: auto;
-  overflow: hidden;
+  max-height: 500px;
+  overflow: visible;
   transition: all;
   transition-duration: 700ms;
   transition-timing-function: ease;
