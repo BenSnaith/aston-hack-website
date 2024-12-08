@@ -2,8 +2,9 @@ import {ScheduleEvent} from './ScheduleEvent';
 
 export const EVENTS: ScheduleEvent[] = [
   {
-    starttime: "9:45am",
+    starttime: "9:00am",
     title: "Check-in",
+    description: "Breakfast will be provided",
     isDayOne: true,
   },
   {
@@ -18,44 +19,32 @@ export const EVENTS: ScheduleEvent[] = [
   },
   {
     starttime: "12:00am",
-    title: "Event 1: ACSS",
-    description: "Team Building Workshop",
+    title: "Event 1: TBC",
+    description: "More details to be confirmed",
     isDayOne: true,
   },
   {
-    starttime: "12:00pm",
+    starttime: "1:00pm",
     title: "Lunch",
-    description: "Aston Dining Room",
+    description: "Opportunity to play UNO and other social games!",
     isDayOne: true,
   },
   {
-    starttime: "1:30pm",
+    starttime: "3:00pm",
     title: "Event 2: ACSS",
-    description: "Beginner Github Workshop",
-    isDayOne: true,
-  },
-  {
-    starttime: "2:30pm",
-    title: "Event 3: Majestic",
-    description: "Innovation and Product Development for Hackathons",
-    isDayOne: true,
-  },
-  {
-    starttime: "4:00pm",
-    title: "Event 2: Civico",
-    description: "Needs description",
+    description: "Cup Stacking Challenge",
     isDayOne: true,
   },
   {
     starttime: "5:00pm",
-    title: "Event 2: ACSS: Cyber",
-    description: "OPSEC Introduction",
+    title: "Event 3: Treasure Hunt",
+    description: "More details to be confirmed",
     isDayOne: true,
   },
   {
     starttime: "6:00pm",
-    title: "Event 6: Hackathon UK",
-    description: "Cup Stacking Challenge",
+    title: "Event 4: Cryptography Talk",
+    description: "More details to be confirmed",
     isDayOne: true,
   },
   {
@@ -64,15 +53,19 @@ export const EVENTS: ScheduleEvent[] = [
     isDayOne: true,
   },
   {
-    starttime: "8:00pm",
-    title: "Event 7: Werewolf",
-    description: "Needs Description",
+    starttime: "9:00pm",
+    title: "Event 5: ACSS",
+    description: "Odd One Out Challenge",
     isDayOne: true,
   },
   {
-    starttime: "10:30pm",
-    title: "Event 8: ACSS",
-    description: "Games Room Open",
+    starttime: "10:00pm",
+    title: "Gaming Social",
+    isDayOne: true,
+  },
+  {
+    starttime: "11:00pm",
+    title: "Scary Games",
     isDayOne: true,
   },
   {
@@ -82,19 +75,12 @@ export const EVENTS: ScheduleEvent[] = [
   },
   {
     starttime: "8:00am",
-    title: "Breakfast",
-    description: "Aston Dining Room",
+    title: "Rise and Shine!",
     isDayOne: false,
   },
   {
     starttime: "9:00am",
-    title: "Devpost Submissions Begin",
-    isDayOne: false,
-  },
-  {
-    starttime: "10:00am",
-    title: "Event 9: WIT Panel",
-    description: "Run by ACSS, Open to all students",
+    title: "Breakfast",
     isDayOne: false,
   },
   {
