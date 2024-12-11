@@ -10,7 +10,7 @@ import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 export class CountdownComponent implements AfterViewInit {
   date: any;
   now: any;
-  targetDate: Date = new Date(2025, 2, 22);
+  targetDate: Date = new Date("Feb 22 2025 00:00:00");
   targetTime: any = this.targetDate.getTime();
   difference: number;
 
@@ -20,8 +20,8 @@ export class CountdownComponent implements AfterViewInit {
   @ViewChild('seconds', { static: true }) seconds: ElementRef;
   @ViewChild('countdown-container', { static: true }) countdownContainer: HTMLDivElement;
 
-  ngAfterViewInit() {
-    setInterval(() => {
+  ngAfterViewInit(): void {
+    setInterval((): void => {
       this.tickTock();
       this.difference = this.targetTime - this.now;
       this.difference = this.difference / (1000 * 60 * 60 * 24);
@@ -33,7 +33,7 @@ export class CountdownComponent implements AfterViewInit {
     }, 1000)
   }
 
-  tickTock() {
+  tickTock(): void {
     this.date = new Date();
     this.now = this.date.getTime();
     this.days.nativeElement.innerText = Math.floor(this.difference);
