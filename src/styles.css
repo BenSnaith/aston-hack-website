@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply text-black dark:text-white transition-colors duration-700;
+  }
+}
+
 /* Tailwind classes */
 @layer components {
   .navbar-link {
@@ -10,11 +16,11 @@
   }
 
   .static-nav-tw {
-    @apply bg-transparent transition-all duration-700 h-[15%];
+    @apply text-white bg-transparent transition-all duration-700 h-[15%];
   }
 
   .scrolled-nav-tw {
-    @apply bg-stone-300 dark:bg-zinc-900 transition-all duration-700 h-[10%];
+    @apply bg-stone-200 dark:bg-zinc-900 transition-all duration-500 h-[10%];
   }
 
   .scroll-to-hr {
@@ -38,18 +44,19 @@
   }
 
   .site-section {
-    @apply w-full min-w-full min-h-fit py-12 outline-none border-none bg-zinc-800;
+    @apply w-full min-w-full min-h-fit py-12 outline-none border-none bg-stone-100 dark:bg-zinc-800;
   }
 
   .form-input {
-    @apply p-5 bg-zinc-400 text-black placeholder:text-zinc-700 focus:outline-none focus:ring-2 focus:ring-purple-500 rounded-md;
+    @apply p-5 bg-stone-300 dark:bg-zinc-400 text-black placeholder:text-black focus:outline-none focus:ring-2 focus:ring-purple-500 rounded-md;
   }
 }
 
 * {
   scroll-behavior: smooth;
   font-family: "JetBrains Mono", monospace;
-  color: white;
+  transition: background-color;
+  transition-duration: 500ms;
 }
 
 .jetbrains-mono-regular {
