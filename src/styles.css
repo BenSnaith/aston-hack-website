@@ -9,6 +9,14 @@
     @apply ml-5 hover:underline;
   }
 
+  .static-nav-tw {
+    @apply bg-transparent transition-all duration-700 h-[15%];
+  }
+
+  .scrolled-nav-tw {
+    @apply bg-stone-300 dark:bg-zinc-900 transition-all duration-700 h-[10%];
+  }
+
   .scroll-to-hr {
     @apply h-0 w-0 scale-0 outline-none border-none invisible;
   }

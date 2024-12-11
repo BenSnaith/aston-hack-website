@@ -10,6 +10,7 @@ import {ScrollTopComponent} from './components/scroll-top/scroll-top.component';
 import {SponsorsComponent} from './components/sponsors/sponsors.component';
 import {FaqComponent} from './components/faq/faq.component';
 import {ContactComponent} from './components/contact/contact.component';
+import {ThemeToggleComponent} from './components/theme-toggle/theme-toggle.component';
 
 @Component({
   selector: 'app-root',
@@ -25,7 +26,8 @@ import {ContactComponent} from './components/contact/contact.component';
     ScrollTopComponent,
     SponsorsComponent,
     FaqComponent,
-    ContactComponent
+    ContactComponent,
+    ThemeToggleComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

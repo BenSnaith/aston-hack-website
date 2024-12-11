@@ -27,13 +27,15 @@ export class NavbarComponent implements OnInit {
   transNav = (): void => {
     if(this.window.scrollY > 75) {
       // this.navbarDiv.nativeElement.style.setProperty("background-color", "#18181b");
-      this.navbarDiv.nativeElement.classList.remove("static-nav");
+      this.navbarDiv.nativeElement.classList.remove("static-nav-tw");
       this.navbarDiv.nativeElement.classList.add("scrolled-nav");
+      this.navbarDiv.nativeElement.classList.add("scrolled-nav-tw");
     }
     if(this.window.scrollY < 75) {
       // this.navbarDiv.nativeElement.style.setProperty("background-color", "transparent")
       this.navbarDiv.nativeElement.classList.remove("scrolled-nav");
-      this.navbarDiv.nativeElement.classList.add("static-nav");
+      this.navbarDiv.nativeElement.classList.remove("scrolled-nav-tw");
+      this.navbarDiv.nativeElement.classList.add("static-nav-tw");
     }
   }
 }
