@@ -25,7 +25,7 @@ import {ContactComponent} from './components/contact/contact.component';
     ScrollTopComponent,
     SponsorsComponent,
     FaqComponent,
-    ContactComponent
+    ContactComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
