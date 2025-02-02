@@ -1,13 +1,22 @@
 <app-navbar />
 <section class="min-w-full min-h-screen flex flex-col items-center justify-center bg-transparent" id="hero">
-    <div class="min-w-full min-h-screen flex flex-col items-center justify-center" id="transparent-hero">
-        <img src="/logo.png" alt="Aston Hack Logo" class="size-20 md:size-28 mb-5 object-contain">
-        <div class="flex flex-col items-center justify-center text-5xl md:text-8xl font-semibold">
-            <span class="text-xl">Ten Years Of</span>
-            <span class="tracking-wide"><span class="text-purple-700">ASTON</span>HACK</span>
-            <span class="text-xl">February <span class="text-purple-700">2025</span></span>
-        </div>
-        <app-countdown />
+    <div class="min-w-full min-h-screen flex flex-col items-center justify-center gap-y-10" id="transparent-hero">
+        <section class="flex flex-col items-center justify-center">
+          <img src="/logo.png" alt="Aston Hack Logo" class="size-20 md:size-28 mb-5 object-contain">
+          <div class="flex flex-col items-center justify-center text-5xl md:text-8xl font-semibold">
+              <span class="text-xl">Ten Years Of</span>
+              <span class="tracking-wide"><span class="text-purple-700">ASTON</span>HACK</span>
+              <span class="text-xl">February <span class="text-purple-700">2025</span></span>
+          </div>
+          <app-countdown />
+        </section>
+        <a
+          href="https://astonhack10.eventbrite.co.uk/"
+          target="_blank"
+          class="bg-purple-700 px-10 py-3 rounded-lg hover:bg-purple-900 hover:text-stone-200 transition-all duration-500"
+        >
+          Get Tickets!
+        </a>
     </div>
 </section>
 
