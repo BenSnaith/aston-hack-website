@@ -19,8 +19,8 @@ export const EVENTS: ScheduleEvent[] = [
   },
   {
     starttime: "12:00am",
-    title: "Event 1: TBC",
-    description: "More details to be confirmed",
+    title: "Event 1: Ice Breaker Challenge",
+    description: "A chance for participants to get to know each other",
     isDayOne: true,
   },
   {
@@ -31,20 +31,18 @@ export const EVENTS: ScheduleEvent[] = [
   },
   {
     starttime: "3:00pm",
-    title: "Event 2: ACSS",
-    description: "Cup Stacking Challenge",
+    title: "Event 2: Women in Tech Event",
+    isDayOne: true,
+  },
+  {
+    starttime: "4:00pm",
+    title: "Event 3: Majestic",
+    description: "Technical Talk presented by Majestic",
     isDayOne: true,
   },
   {
     starttime: "5:00pm",
-    title: "Event 3: Treasure Hunt",
-    description: "More details to be confirmed",
-    isDayOne: true,
-  },
-  {
-    starttime: "6:00pm",
-    title: "Event 4: Cryptography Talk",
-    description: "More details to be confirmed",
+    title: "Event 4: Cryptography-based whodunnit",
     isDayOne: true,
   },
   {
@@ -84,18 +82,19 @@ export const EVENTS: ScheduleEvent[] = [
     isDayOne: false,
   },
   {
-    starttime: "11:00am",
-    title: "Hacking Ends!",
+    starttime: "10:00am",
+    title: "Submissions Open",
     isDayOne: false,
   },
   {
-    starttime: "11:00am",
+    starttime: "12:00am",
     title: "Lunch",
     isDayOne: false,
   },
   {
-    starttime: "12:00pm",
-    title: "Demos Begin",
+    starttime: "1:00pm",
+    title: "Submissions Close",
+    description: "Demo presentations begin!",
     isDayOne: false,
   },
   {
