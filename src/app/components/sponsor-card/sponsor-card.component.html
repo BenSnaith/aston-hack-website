@@ -1,8 +1,8 @@
-<div class="ring-4 ring-yellow-500 hover:scale-110 transition-all duration-500">
+<div class="{{ class }} flex justify-center items-center ring-4 ring-yellow-500 hover:scale-110 transition-all duration-500">
   <a
     href="{{ websiteHref }}"
     target="_blank"
   >
-    <img ngSrc="{{ image }}" alt="{{ imageAlt }}" width="300" height="100">
+    <img ngSrc="{{ image }}" alt="{{ imageAlt }}" width="{{ imageWidth }}" height="{{ imageHeight }}">
   </a>
 </div>

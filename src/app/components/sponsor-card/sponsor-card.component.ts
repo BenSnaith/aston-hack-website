@@ -12,6 +12,9 @@ import {NgOptimizedImage} from '@angular/common';
 })
 export class SponsorCardComponent {
   @Input({ required: true }) image: string = '';
+  @Input({ required: false }) class: string = '';
   @Input({ required: true }) imageAlt: string = '';
+  @Input({ required: true }) imageWidth: number;
+  @Input({ required: true }) imageHeight: number;
   @Input({ required: true }) websiteHref: string = '';
 }
